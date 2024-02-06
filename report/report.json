@@ -1,0 +1,209 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-checkout-product-functionality;verify-user-is-able-to-checkout-the-product",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify User is able to Checkout the Product",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to url",
+            "match": {
+              "location": "features\\support\\steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 265000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enters \"standard_user\" username",
+            "match": {
+              "location": "features\\support\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user enters \"secret_sauce\" password",
+            "match": {
+              "location": "features\\support\\steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user clicks Login button",
+            "match": {
+              "location": "features\\support\\steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user navigate to the products page",
+            "match": {
+              "location": "features\\support\\steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 339000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "user click on add to cart",
+            "match": {
+              "location": "features\\support\\steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user click on container button",
+            "match": {
+              "location": "features\\support\\steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user click on checkout button",
+            "match": {
+              "location": "features\\support\\steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "user enters \"Murali\" firstname",
+            "match": {
+              "location": "features\\support\\steps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user enters \"Krishna\" lastname",
+            "match": {
+              "location": "features\\support\\steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user enters \"502032\" postalcode",
+            "match": {
+              "location": "features\\support\\steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "user click on continue button",
+            "match": {
+              "location": "features\\support\\steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "user click on finish button",
+            "match": {
+              "location": "features\\support\\steps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-checkout-product-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Add Checkout Product Functionality",
+    "tags": [],
+    "uri": "features\\checkoutProduct.feature"
+  }
+]
